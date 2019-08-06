@@ -1,0 +1,27 @@
+<nb-layout-header>Dasboard / Home</nb-layout-header>
+        
+          <nb-card [size]="'medium'" style="height:250px !important;">
+            <nb-card-header>Branch</nb-card-header>
+            <nb-card-body style="margin: 10px;">
+              <input type="text" nbInput fullWidth status="info" placeholder="Name">
+              <br/>
+              <input type="text" nbInput fullWidth status="info" placeholder="Search here">
+            </nb-card-body>
+            <nb-card-footer></nb-card-footer>
+          </nb-card>
+    
+          <nb-card [size]="'medium'" style="height:160px;">
+            <nb-card-header>Admin Users</nb-card-header>
+            <nb-card-body>
+              <input type="text" nbInput fullWidth status="info" placeholder="Search outlet here">
+            </nb-card-body>
+            <nb-card-footer></nb-card-footer>
+          </nb-card>
+
+          <nb-card [size]="'medium'">
+                <nb-card-header>Map</nb-card-header>
+                <nb-card-body>
+                        <div id="map-canvas" style="height:350px;"></div>
+                </nb-card-body>
+            </nb-card>
+          
