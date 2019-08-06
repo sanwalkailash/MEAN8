@@ -1,0 +1,42 @@
+<nb-layout>
+
+  <nb-layout-header fixed>
+  <!-- Insert header here --> Header 
+  </nb-layout-header>
+
+  <nb-layout-column>
+
+    <nb-layout center>
+      <nb-layout-header>Awesome Company</nb-layout-header>
+    
+      <nb-card>
+        <nb-card-header>Nebula</nb-card-header>
+        <nb-card-body>
+          <input type="text" nbInput fullWidth status="info" placeholder="Name">
+          <input type="text" nbInput fullWidth status="info" placeholder="Search here">
+        </nb-card-body>
+        <nb-card-footer>By Wikipedia</nb-card-footer>
+      </nb-card>
+
+      <nb-card>
+        <nb-card-header>Nebula</nb-card-header>
+        <nb-card-body>
+          Admin users
+          <input type="text" nbInput fullWidth status="info" placeholder="Search outlet here">
+        
+        </nb-card-body>
+        <nb-card-footer>By Wikipedia</nb-card-footer>
+      </nb-card>
+      
+    </nb-layout>
+
+    <router-outlet></router-outlet>
+    
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+  <!-- Insert footer here -->
+    Footer
+  </nb-layout-footer>
+
+</nb-layout>
