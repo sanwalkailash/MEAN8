@@ -1,27 +1,130 @@
-<nb-layout-header>Dasboard / Home</nb-layout-header>
-        
-          <nb-card [size]="'medium'" style="height:250px !important;">
-            <nb-card-header>Branch</nb-card-header>
-            <nb-card-body style="margin: 10px;">
-              <input type="text" nbInput fullWidth status="info" placeholder="Name">
-              <br/>
-              <input type="text" nbInput fullWidth status="info" placeholder="Search here">
-            </nb-card-body>
-            <nb-card-footer></nb-card-footer>
-          </nb-card>
-    
-          <nb-card [size]="'medium'" style="height:160px;">
-            <nb-card-header>Admin Users</nb-card-header>
-            <nb-card-body>
-              <input type="text" nbInput fullWidth status="info" placeholder="Search outlet here">
-            </nb-card-body>
-            <nb-card-footer></nb-card-footer>
-          </nb-card>
+<nb-card>
 
-          <nb-card [size]="'medium'">
-                <nb-card-header>Map</nb-card-header>
-                <nb-card-body>
-                        <div id="map-canvas" style="height:350px;"></div>
-                </nb-card-body>
-            </nb-card>
+
+    <nb-card-body>
+
+    <nb-card [size]="'medium'" style="height:160px;">
+        <nb-card-header>Filter Outlets</nb-card-header>
+        <nb-card-body>
+          <input type="text" nbInput fullWidth status="info" placeholder="Search outlet here">
+        </nb-card-body>
+        <nb-card-footer></nb-card-footer>
+      </nb-card>
+      <nb-card [size]="'medium'">
+          <nb-card-header>Map</nb-card-header>
+          <nb-card-body>
+                  <div id="map-canvas" style="height:350px;"></div>
+          </nb-card-body>
+      </nb-card>
+  
+      <nb-tabset>
+        <nb-tab tabTitle="Users"
+                badgeText="99+"
+                badgeStatus="danger">
+          <p>List of <strong>users</strong>.</p>
+        </nb-tab>
+        <nb-tab tabTitle="Orders"
+                badgeText="12"
+                badgePosition="bottom right"
+                badgeStatus="warning">
+          <p>List of <strong>orders</strong>.</p>
+        </nb-tab>
+        <nb-tab tabTitle="Transactions"
+                badgeText="new"
+                badgePosition="top right"
+                badgeStatus="success">
+          <p>List of <strong>transactions</strong>.</p>
+        </nb-tab>
+      </nb-tabset>
+  
+    </nb-card-body>
+  </nb-card>
+
+        
+  <div class="card-row">
+      <div class="card-col">
+        <nb-card size="tiny">
+          <nb-card-header>Tiny card</nb-card-header>
+        </nb-card>
+        <nb-card size="tiny">
+          <nb-card-header>Tiny card</nb-card-header>
+        </nb-card>
+      </div>
+      <div class="card-col">
+        <nb-card size="medium">
+          <nb-card-header>Medium card</nb-card-header>
+          
+        </nb-card>
+      </div>
+    </div>
+    
+    <div class="card-row">
+      <div class="card-col">
+        <nb-card size="tiny">
+          <nb-card-header>Tiny card</nb-card-header>
+        </nb-card>
+        <nb-card size="small">
+          <nb-card-header>Small card</nb-card-header>
+        </nb-card>
+      </div>
+      <div class="card-col">
+        <nb-card size="large">
+          <nb-card-header>Large card</nb-card-header>
+        </nb-card>
+      </div>
+    </div>
+    
+    <div class="card-row">
+      <div class="card-col">
+        <nb-card size="tiny">
+          <nb-card-header>Tiny card</nb-card-header>
+        </nb-card>
+        <nb-card size="medium">
+          <nb-card-header>Medium card</nb-card-header>
+        </nb-card>
+      </div>
+      <div class="card-col">
+        <nb-card size="giant">
+          <nb-card-header>Giant card</nb-card-header>
+        </nb-card>
+      </div>
+    </div>
+    
+    <div class="card-row">
+      <div class="card-col">
+        <nb-card size="tiny">
+          <nb-card-header>Tiny card</nb-card-header>
+        </nb-card>
+        <nb-card size="tiny">
+          <nb-card-header>Tiny card</nb-card-header>
+        </nb-card>
+        <nb-card size="tiny">
+          <nb-card-header>Tiny card</nb-card-header>
+        </nb-card>
+      </div>
+      <div class="card-col">
+        <nb-card size="giant">
+          <nb-card-header>Giant card</nb-card-header>
+        </nb-card>
+      </div>
+    </div>
+    
+    <div class="card-row">
+      <div class="card-col">
+        <nb-card size="small">
+          <nb-card-header>Small card</nb-card-header>
+        </nb-card>
+        <nb-card size="small">
+          <nb-card-header>Small card</nb-card-header>
+        </nb-card>
+      </div>
+      <div class="card-col">
+        <nb-card size="giant">
+          <nb-card-header>Giant card</nb-card-header>
+        </nb-card>
+      </div>
+    </div>
+    
+
+          
           

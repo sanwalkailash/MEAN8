@@ -1,16 +1,33 @@
+
 <nb-layout>
-
-  <nb-layout-header fixed>
-  <!-- Insert header here --> Common Header 
-  </nb-layout-header>
-
-  <nb-layout-column>
-    <router-outlet></router-outlet>
-  </nb-layout-column>
-
-  <nb-layout-footer fixed>
-  <!-- Insert footer here -->
-    Common  Footer
-  </nb-layout-footer>
-
-</nb-layout>
+  
+    <nb-layout-header fixed>
+      <!-- Insert header here --> Company Logo 
+      <nb-actions size="medium" >
+          </nb-action>
+          <nb-action icon="power-outline"
+                     badgeText="12"
+                     badgePosition="bottom right"
+                     badgeStatus="warning">
+          </nb-action>
+          
+          <nb-action icon="home-outline"></nb-action>
+            <nb-action icon="settings-2-outline" ></nb-action>
+            <nb-action icon="person-outline"
+                     badgeText="K"
+                     badgePosition="top right"
+                     badgeStatus="info">
+          </nb-action>
+        </nb-actions>
+    </nb-layout-header>
+    
+    <nb-layout-column>
+        <router-outlet></router-outlet>
+    </nb-layout-column>
+  
+    <nb-layout-footer fixed>
+      <!-- Insert footer here -->
+      Footer
+      </nb-layout-footer>
+  </nb-layout>
+  
